@@ -1,0 +1,40 @@
+{
+  "name": "vite-plugin-element-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "es"
+  ],
+  "keywords": [
+    "vite",
+    "style",
+    "theme",
+    "css"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "dev:client": "tsc -w --p tsconfig.client.json",
+    "build": "tsup && tsc -p tsconfig.client.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/pluginutils": "^4.1.2",
+    "change-case": "^4.1.2",
+    "cssnano": "^5.0.11",
+    "es-module-lexer": "^0.9.3",
+    "fs-extra": "^10.0.0",
+    "postcss": "^8.3.11",
+    "sass": "^1.43.3",
+    "serve-static": "^1.14.2",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "tsup": "^5.12.1",
+    "vite": "^2.7.13"
+  }
+}
