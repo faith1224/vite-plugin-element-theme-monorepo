@@ -8,8 +8,11 @@
 - ui 框架是 element plus
 - 有类似主题切换的需求
 
+## 效果演示
+![image](https://github.com/faith1224/vite-plugin-element-theme-monorepo/blob/master/packages/web/src/assets/effect.gif)
 
 ## 快速创建一个主题切换的示例项目
+
 
 ```shell
 # 安装插件
